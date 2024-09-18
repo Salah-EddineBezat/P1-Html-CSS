@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tui-Boekingsformulier</title>
+</head>
+
+<body>
+    <h1>Boekingsformulier</h1>
+
+    <form action="">
+        <label for="Firstname">Voornaam</label>
+        <input type="text" name="Firstname" pattern="[A-Za-z]">
+
+        <br><br>
+
+        <label for="Lastname">Achternaam</label>
+        <input type="text" name="Lastname" pattern="[A-Za-z]">
+        <br><br>
+        <Label for="Gender">Geslacht</Label>
+        <input type="radio" name="Gender" value="Man" pattern="[A-Za-z]">Man
+        <input type="radio" name="Gender" value="Vrouw">Vrouw
+        <br><br>
+        <label for="Street and housenumber">Straatnaam met huisnummer</label>
+        <input type="text" name="Street and housenumber">
+        <input type="number" name="Street and housenumber">
+        <br><br>
+        <label for="Postcode">Postcode</label>
+        <input type="text" name="Postcode">
+        <br><br>
+        <label for="City">Stad</label>
+        <input type="text" name="City">
+        <br><br>
+        <label for="Country">Land</label>
+        <input type="text" name="Country">
+        <br><br>
+        <label for="citizen service number">BSN-nummer</label>
+        <input type="number" name="citizen service number" minlength="9">
+        <br><br>
+        <label for="Holiday Countries">Vakantieland</label>
+        <select name="Holiday Countries">
+            <option value="The netherlands">Nederland</option>
+            <option value="England">Engeland</option>
+            <option value="Morocco">Marokko</option>
+            <option value="Turkey">Turkije</option>
+            <option value="Saudi-Arabia">Saudi-Arabie</option>
+        </select><br><br>
+
+        <label for="Date of departure">Datum van vertrek</label>
+        <input type="date" name="Date of departure" min="2024-09-18">
+        
+        <br><br>
+        <label for="Date of return">Datum van terugkomst</label>
+        <input type="date" name="Date of return min=" 2024-09-19">
+        <br><br>
+        <label for="Travel Buddies">Reisgenoten</label>
+        <input type="number" name="Travel Buddies" max="4" min="0">
+        <br><br>
+        <label for="Button to book">Boek nu</label>
+        <input type="button" name="Button to book">
+        <br><br>
+        <Label for="E-mail">E-mail</Label>
+        <input type="email" name="E-mail" id="">
+        <br><br>
+        <Label name="Password">Wachtwoord</Label>
+        <Input type="password" name="Password"></Input>
+    </form>
+
+
+
+
+
+
+
+    </form>
+</body>
+
+</html>
