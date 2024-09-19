@@ -1,0 +1,49 @@
+
+h1{
+    color: rgb(255, 115, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+text-align: left;
+margin: 20px;
+font: bold;
+line-height: 100px;
+}
+
+table{
+border-collapse: collapse;
+margin: 25px 20px;
+font-size: 0,9em;
+min-width: 400px;
+
+}
+th{
+    min-width: 20px;
+    line-height: 20px;
+}
+.fey{
+    width:28px;
+
+    
+}
+.colorGg{
+    color: rgb(255, 115, 0);
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Clubnaam{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+}
+
+th{
+font-size: 0.9em;
+
+text-align: left;
+border-bottom: 2px solid #dddddd;
+    
+}
+tbody tr{
+    border-bottom: 1px solid#dddddd;
+line-height: 70px;
+
+}
+
