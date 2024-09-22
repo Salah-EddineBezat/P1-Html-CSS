@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+
+body{
+    font-family: Goldman;
+
+}
+h1{ 
+     font-family: "Goldman", system-ui;
+    font-weight: 700;
+    font-style: normal;
+
+}
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+    font-weight: italic;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+
+  body{
+    min-height: calc(100vh - 10vh);
+    background-image: url(/P1-Html-CSS/hacker.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .zwartColor{
+background-color: black;
+  }
+
+  .titelBold{
+    font-weight: bold;
+  }
+
+
+  .white{
+    color: white;
+    
+  }
+
+  .footerPosition{
+    font-size: 2.5rem;
+    min-height: 10vh;
+     position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  }
