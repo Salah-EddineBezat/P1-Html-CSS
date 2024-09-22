@@ -8,7 +8,9 @@
   }
 
 body{
-    font-family: Goldman;
+  font-family: "Goldman", system-ui;
+  font-weight: 400;
+  font-style: normal;
 
 }
 h1{ 
@@ -52,7 +54,7 @@ h1{
 
   body{
     min-height: calc(100vh - 10vh);
-    background-image: url(/P1-Html-CSS/hacker.png);
+    background-image: url(/hacker.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -61,6 +63,7 @@ h1{
 
   .zwartColor{
 background-color: black;
+font-family: Goldman; color: black;
   }
 
   .titelBold{
