@@ -160,11 +160,12 @@ nav a:hover{
   color: #00a8c7;
 }
 .dropdownContent a:hover{
-  background-color: #9a9a9a;
+  background-color: #E9E9E9;
   color: #00a8c7;
 }
 .dropdown1:hover .dropdownContent:hover{
   display: block;
+  color: #E9E9E9;
 
 }
 .dropdown1 .dropdownContent{
