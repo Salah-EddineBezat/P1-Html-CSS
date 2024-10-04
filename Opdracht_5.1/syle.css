@@ -49,7 +49,7 @@ text-align: center;
   }
 
   nav li {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 0 4rem 0 4rem;
     font-weight: italic;
   }
@@ -155,33 +155,49 @@ margin-left: 10vh;
   font-size: 50px;
   padding-top: 35vh;
 }
+.navLinks{
+  margin-left: 20vh;
+}
+
 nav a:hover{
   background-color: #FFFFFF;
   color: #00a8c7;
 }
-.dropdownContent a:hover{
+ .dropdownContent a:hover{
   background-color: #E9E9E9;
   color: #00a8c7;
+  
 }
+
 .dropdown1:hover .dropdownContent:hover{
   display: block;
   color: #E9E9E9;
-
 }
 .dropdown1 .dropdownContent{
   display: none;
   position: absolute;
-}
-.dropdown1:hover .dropdownContent{
-  display: block;
 
 }
+
+
+ .dropdown1:hover .dropdownContent{
+  display: block
+}
+
 .dropdownContent a{
   color: #00a8c7;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
 }
 .dropdownContent{
+  margin-top: 3.5vh;
   background-color: #ffffff;
   color: #00a8c7;
+
+}
+.jaar2{
+  padding: 40px 25px;
 }
 
 
@@ -249,7 +265,6 @@ margin-right: 10vh;
   margin-left: 35vh;
 padding-bottom: 3vh;
 margin-right: 4vw;
-
 }
 
 .pos5{
