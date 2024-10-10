@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-size: 62.5%;
+  }
+
+body{
+  font-family: "Goldman", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+h1{
+text-align: center;
+
+     font-family: "Goldman", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    margin-bottom: 5vh 
+}
+
+
+  
+  nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  nav li {
+    font-size: 2rem;
+    padding: 0 4rem 0 4rem;
+    font-weight: italic;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 5vw;
+  }
+
+  body{
+    min-height: calc(100vh - 10vh);
+  }
+
+  .zwartColor{
+background-color: black;
+font-family: Goldman; color: black;
+  }
+
+  .titelBold{
+    font-weight: bold;
+  }
+
+
+
+  .pos3{
+    color: white;
+    margin-bottom: 2vh;
+
+  }
+.white2{
+  color: white;
+  max-width: 70%;
+  font-size: 10px;
+  line-height: 03vh;
+  font-weight: normal;
+
+}
+  .footerPosition{
+    font-size: 1.5rem;
+    min-height: 10vh;
+     position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  }
+  
+  footer p{
+    display: flex;
+   justify-content: center;
+   text-align: center;
+   margin-top: 3.5vh;
+  }
+  .enable{
+
+    margin-top: 25vh;
+  }
+.colorOrange{
+  color: orange;
+}
+.sizeImg{
+width: 260px;
+  float: right; 
+  position: relative;
+  top: 20px;left: 20vw; bottom: 35vh;
+ 
+
+}
+
+
+.centerText{
+margin-left: 10vh;
+}
+.float{
+  display: flex;
+}
+
+.p1{
+  color: white;
+}
+.body2{
+  background-image: url(/background.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: auto;
+}
+.white{
+  line-height: 5vh;
+}
+.white3{
+  color: white;
+}
+.p1{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 35vh;
+}
+.navLinks{
+  margin-left: 20vh;
+}
+
+nav a:hover{
+  background-color: #FFFFFF;
+  color: #00a8c7;
+}
+.dropdownBtn:hover{
+  background-color: #FFFFFF;
+  color: #00a8c7;
+}
+.dropdown{
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+}
+.dropdownBtn{
+  padding: 14px 14px;
+  background-color: #00a8c7;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: "Goldman", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.dropdownContent1 {
+  display: none;
+position: absolute;
+top: 100%; 
+font-size: 16px;
+min-width: 100px;
+color: #00a8c7;
+background-color: white;
+flex-direction: column;
+}
+
+.dropdownContent1 a{
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #00a8c7
+}
+
+.dropdownContent1 a:hover{
+background-color: #e9e9e9;
+}
+
+.dropdown:hover .dropdownContent1{
+  display: flex;
+}
+.jaar2{
+  padding: 45px 25px;
+}
+
+
+
+.float2{
+  display: flex;
+
+}
+.pos2{
+  margin-left: 10vh;
+ 
+  max-width: 70%;
+}
+
+.sizeImgg{
+  width: 20vw;
+  float: right;
+}
+
+.color4{
+  color: yellow;
+}
+.afsF{
+  color: white;
+margin-right: 20vh;
+line-height: 3vh;
+}
+
+.sizeig2{
+width: 32vw;
+height: auto;
+float: left;
+
+margin-left: 35vh;
+margin-right: 10vh;
+}
+
+.color22{
+  color: #8993BE ;
+}
+.float3{
+
+  position: relative;
+}
+
+.t2{
+  margin-top: 1.5vh;
+  margin-right: 12vh;
+  line-height: 3vh;
+
+}
+
+.coloro{
+  color: #E44D27;
+}
+
+.colorb{
+  color: #0071BB;
+
+}
+.sizeig3{
+  width: 32vw;
+  height: auto;
+  float: left;
+  margin-left: 35vh;
+padding-bottom: 3vh;
+margin-right: 4vw;
+}
+
+.pos5{
+  margin-left: 10vh;
+line-height: 2.5vh;
+  max-width: 80%;
+}
+.pos6{
+  text-align: center;
+}
+
+.button{
+  
+text-align: center;
+width: 100%;
+background-color: #00a8c7;
+color: white;
+border: solid 2px #00a8c7;
+border-radius: 2px;
+font-family: "Goldman", system-ui;
+font-weight: 400;
+font-style: normal;
+}
+form input{
+  width: 100%;
+  margin: 10px 0;
+}
+.cont2{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.name{
+  margin-bottom: 2vh;
+}
+.e-mail{
+  margin-bottom: 2vh;
+ 
+}
+.message input{
+  margin-bottom: 2vh;
+  height: 12vh;
+}
+form{
+  width: 400px;
+}
+
+
