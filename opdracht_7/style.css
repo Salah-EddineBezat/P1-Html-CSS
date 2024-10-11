@@ -1,0 +1,139 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+overflow: hidden;
+
+  }
+nav{
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 10vh;
+   background-color: rgb(243, 62, 62);
+   color: white;
+}
+.pos2{
+
+    min-height: 6vh;
+}
+
+.yellow{
+    position: relative;
+    top: -3vh;
+width: 100vw;
+    background-color: yellow;
+ height: 33vh;
+ margin: 0;
+
+}
+
+
+.orange{
+position: relative;
+top: -6vh;
+
+    width: 100vw;
+    background-color: orange;
+    height: 33vh;
+
+}
+
+.green{
+    position: relative;
+    top: -9vh;
+    width: 100vw;
+height: 33vh;
+background-color: green;
+}
+
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+
+}
+
+.pos1{
+    margin-left: 5vw;
+ 
+}
+
+.pos{
+    margin-left: 5vh;
+    font-family: "Playfair Display", serif;
+        position: relative;
+    top: 3vh;
+}
+.p2{
+    margin-bottom: 0vh;
+    
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    .yellow{
+    background-color: #fc4c72;
+    }
+    .orange{
+        background-color: #2f70ed;
+    }
+    .green{
+        background-color: #637afa;
+    }
+     nav{
+        background-color: #fa6383;
+    }
+    .pos2{
+        margin-left: 50%;
+}
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+    nav{
+        background-color: #3b85f6;
+    }
+    .yellow{
+        background-color: lightblue;
+        }
+        .orange{
+            background-color: purple;
+        }
+        .green{
+            background-color: darkblue;
+        }
+    .pos2{
+        margin-left: 3vw;
+        min-height: 5vh;  
+    }
+  .block{
+    display: flex;
+    justify-content: flex-end;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width:1024px ) {
+    nav{
+        padding: 3rem;
+    }
+    .logo{
+        font-size: 32px;
+    }
+    pos{
+        font-size: 1.2rem;
+    }
