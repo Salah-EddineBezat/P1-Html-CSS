@@ -119,10 +119,12 @@ background-color: green;
         min-height: 5vh;  
     }
   .block{
+    position: absolute;
+    top: 5vh;
     display: flex;
-    justify-content: flex-end;
     width: 20px;
     height: 20px;
+    margin-left: 80vw;
     background-color: white;
   }
 }
@@ -137,3 +139,4 @@ background-color: green;
     pos{
         font-size: 1.2rem;
     }
+}
